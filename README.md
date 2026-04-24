@@ -5,6 +5,7 @@
     ([Common Intermediate Langage](https://fr.wikipedia.org/wiki/Common_Intermediate_Language)) afin de pouvoir utiliser
     le compilateur de ce langage pour pouvoir compiler et executer des programmes rédiger en langage Facile.
     Pour cela nous utilisons un ensemble d'outils qui nous permettent de conduire les différentes phase de la compilation.
+    
     Les phases executées sont les suivantes:
       - Analyse lexicale      -> lecture du flux entrant
                               -> Identification des mots clés via DAF  
@@ -13,10 +14,11 @@
                               -> Vérifie si le flux de token respecte la grammaire du langage
                                   via les règles de production (autre nom des règles de grammaire)
                               -> Génération d'un arbre syntaxique
-      - Analyse Sémentique    -> Utiliser les régles sémantique pour transformer l'arbre syntaxique en arbre sémantique
+      - Analyse Sémentique    -> Utiliser les régles sémantiques pour transformer l'arbre syntaxique en arbre sémantique
                               -> Calcul de la valeur des attributs sémantiques
                                   -> hérité (type: integer, float, string etc.)
-                                  -> Synthétiser (valeur : 4, "hello world" etc.)
+                                  -> Synthétiser (valeur : 4, "hello world" etc.) ...
+      - Production du code dans le langage cible à partir des règles sémantiques
     
     Voir : 
     théorie des langages, lexèmes, expressions régulières (regex), automates (DAF),
@@ -28,4 +30,9 @@
     - Flex:
     - Mono-utils
 
+  # Structure et fonctions des fichiers
+  ## .lex
+  ## .flex
+  ## .il
+  ## CMakeLists.txt
   
