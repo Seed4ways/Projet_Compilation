@@ -22,10 +22,10 @@
       - Production du code dans le langage cible à partir des règles sémantiques
     
   ### Mots-clés : 
-      théorie des langages, lexèmes, expressions régulières (regex), automates (DAF),<br>
-      analyse lexical, analyse syntaxique, Symbole Terminal, Non Terminal, règle de production,<br>
-      Arbre Syntaxique (AST), table des valeurs, tables des erreurs, <br>
-      automates des items arbres syntaxique, arbres sémantique. <br>
+      théorie des langages, lexèmes, expressions régulières (regex), automates (DAF),
+      analyse lexical, analyse syntaxique, Symbole Terminal, Non Terminal, règle de production,
+      Arbre Syntaxique (AST), table des valeurs, tables des erreurs, 
+      automates des items arbres syntaxique, arbres sémantique.
     
   ## Outils:<br>
     - Bison:
