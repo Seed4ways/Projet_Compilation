@@ -1,10 +1,12 @@
 # Projet d'un compilateur Langage Facile vers Langage CIL ( transpilateur ) 
 
   ## Description: 
-    Le but de ce projet est de créer un compilateur du langage Facile ( Donné par nos professeurs ) vers le Langage CIL 
-    ([Common Intermediate Langage](https://fr.wikipedia.org/wiki/Common_Intermediate_Language)) afin de pouvoir utiliser
-    le compilateur de ce langage pour pouvoir compiler et executer des programmes rédiger en langage Facile.
-    Pour cela nous utilisons un ensemble d'outils qui nous permettent de conduire les différentes phase de la compilation.
+    Le but de ce projet est de créer un compilateur du langage Facile ( Donné par nos professeurs ) 
+    vers le Langage CIL ([Common Intermediate Langage](https://fr.wikipedia.org/wiki/Common_Intermediate_Language)) 
+    afin de pouvoir utiliser le compilateur de ce langage afin de pouvoir compiler et executer des programmes
+    rédiger en langage Facile.
+    Pour cela nous utilisons un ensemble d'outils qui nous permettent de conduire
+    les différentes phase de la compilation.
     
   ### Les phases executées sont les suivantes:
       
